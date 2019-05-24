@@ -1,0 +1,1114 @@
+Beginning of the FAT simulation
+
+Directory Listing
+File name: .                      File Size:   512
+Cluster(s) in use:       0
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+Files:  2  Total Size:  512 bytes
+
+Contents of the File Allocation Table
+#000-011     -1     0     0     0     0     0     0     0     0     0     0     0 
+#012-023      0     0     0     0     0     0     0     0     0     0     0     0 
+#024-035      0     0     0     0     0     0     0     0     0     0     0     0 
+#036-047      0     0     0     0     0     0     0     0     0     0     0     0 
+#048-059      0     0     0     0     0     0     0     0     0     0     0     0 
+#060-071      0     0     0     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Add a new file
+Successfuly added a new file, Almond.nut, of size 41
+Transaction:  Add a new file
+Successfuly added a new file, Apple.pie, of size 3227
+Transaction:  Add a new file
+Successfuly added a new file, Banana.split, of size 6334
+Transaction:  Modify a file
+Successfully modified a file, Almond.nut
+Transaction:  Modify a file
+Successfully modified a file, Banana.split
+
+Directory Listing
+File name: .                      File Size:   512
+Cluster(s) in use:       0
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Apple.pie              File Size:  3227
+Cluster(s) in use:       2     3     4     5     6     7     8
+File name: Almond.nut             File Size:   729
+Cluster(s) in use:      22    23
+File name: Banana.split           File Size:  9000
+Cluster(s) in use:       1    24    25    26    27    28    29    30    31    32    33    34
+                        35    36    37    38    39    40
+Files:  5  Total Size:  13468 bytes
+
+Contents of the File Allocation Table
+#000-011     -1    24     3     4     5     6     7     8    -1     0     0     0 
+#012-023      0     0     0     0     0     0     0     0     0     0    23    -1 
+#024-035     25    26    27    28    29    30    31    32    33    34    35    36 
+#036-047     37    38    39    40    -1     0     0     0     0     0     0     0 
+#048-059      0     0     0     0     0     0     0     0     0     0     0     0 
+#060-071      0     0     0     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Copy a file
+Successfully copied an existing file, Apple.pie, to a new file, Pie.apple
+Transaction:  Rename a file
+Successfully changed the file name Almond.nut to Nut.almond
+Transaction:  Add a new file
+Successfuly added a new file, Crisp.bacon, of size 1879
+Transaction:  Delete a file
+Successfully deleted a file, Apple.pie
+Transaction:  Modify a file
+Successfully modified a file, Crisp.bacon
+
+Directory Listing
+File name: .                      File Size:   512
+Cluster(s) in use:       0
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   729
+Cluster(s) in use:      22    23
+File name: Banana.split           File Size:  9000
+Cluster(s) in use:       1    24    25    26    27    28    29    30    31    32    33    34
+                        35    36    37    38    39    40
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+Files:  6  Total Size:  14220 bytes
+
+Contents of the File Allocation Table
+#000-011     -1    24     3    -1     0     0     0     0     0    10    11    12 
+#012-023     13    14    15    -1     0     0     0     0     0     0    23    -1 
+#024-035     25    26    27    28    29    30    31    32    33    34    35    36 
+#036-047     37    38    39    40    -1     0     0     0     0     0     0     0 
+#048-059      0     0     0     0     0     0     0     0     0     0     0     0 
+#060-071      0     0     0     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Add a new file
+Successfuly added a new file, Bubble.gum, of size 0
+Transaction:  Add a new file
+Successfuly added a new file, Candy.bar, of size 513
+Transaction:  Add a new file
+Successfuly added a new file, Small.bite, of size 71
+Transaction:  Modify a file
+Successfully modified a file, Banana.split
+Transaction:  Modify a file
+Successfully modified a file, Small.bite
+
+Directory Listing
+File name: .                      File Size:   512
+Cluster(s) in use:       0
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   729
+Cluster(s) in use:      22    23
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Banana.split           File Size:  7999
+Cluster(s) in use:       7     8    16    17    18    19    20    21    41    42    43    44
+                        45    46    47    48
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+Files:  9  Total Size:  13732 bytes
+
+Contents of the File Allocation Table
+#000-011     -1     0     3    -1     5    -1     0     8    16    10    11    12 
+#012-023     13    14    15    -1    17    18    19    20    21    41    23    -1 
+#024-035      0     0     0     0     0     0     0     0     0     0     0     0 
+#036-047      0     0     0     0     0    42    43    44    45    46    47    48 
+#048-059     -1     0     0     0     0     0     0     0     0     0     0     0 
+#060-071      0     0     0     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Modify a file
+Successfully modified a file, Nut.almond
+Transaction:  Add a new file
+Successfuly added a new file, Kumquat.what, of size 0
+Transaction:  Modify a file
+Successfully modified a file, Kumquat.what
+Transaction:  Modify a file
+Error!  The file name, Apple.pie, was not found.
+Transaction:  Add a new file
+Successfuly added a new file, Blueberry.pie, of size 6020
+
+Directory Listing
+File name: .                      File Size:   512
+Cluster(s) in use:       0
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Banana.split           File Size:  7999
+Cluster(s) in use:       7     8    16    17    18    19    20    21    41    42    43    44
+                        45    46    47    48
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Kumquat.what           File Size:  2100
+Cluster(s) in use:      22    23    24    25    26
+File name: Blueberry.pie          File Size:  6020
+Cluster(s) in use:      27    28    29    30    31    32    33    34    35    36    37    38
+Files:  11  Total Size:  21851 bytes
+
+Contents of the File Allocation Table
+#000-011     -1     6     3    -1     5    -1    -1     8    16    10    11    12 
+#012-023     13    14    15    -1    17    18    19    20    21    41    23    24 
+#024-035     25    26    -1    28    29    30    31    32    33    34    35    36 
+#036-047     37    38    -1     0     0    42    43    44    45    46    47    48 
+#048-059     -1     0     0     0     0     0     0     0     0     0     0     0 
+#060-071      0     0     0     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Modify a file
+Error!  The file name, Apple.pie, was not found.
+Transaction:  Delete a file
+Error!  The file name, Almond.nut, was not found.
+Transaction:  Add a new file
+Successfuly added a new file, Cantelope, of size 1929
+Transaction:  Modify a file
+Successfully modified a file, Banana.split
+Transaction:  Rename a file
+Error!  The old file name, Boysenberry.jam, was not found.
+
+Directory Listing
+File name: .                      File Size:   512
+Cluster(s) in use:       0
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Kumquat.what           File Size:  2100
+Cluster(s) in use:      22    23    24    25    26
+File name: Blueberry.pie          File Size:  6020
+Cluster(s) in use:      27    28    29    30    31    32    33    34    35    36    37    38
+File name: Cantelope              File Size:  1929
+Cluster(s) in use:      39    40    49    50
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+Files:  12  Total Size:  20652 bytes
+
+Contents of the File Allocation Table
+#000-011     -1     6     3    -1     5    -1    -1     0     0    10    11    12 
+#012-023     13    14    15    -1     0     0     0     0     0     0    23    24 
+#024-035     25    26    -1    28    29    30    31    32    33    34    35    36 
+#036-047     37    38    -1    40    49     0     0     0     0     0     0     0 
+#048-059      0    50    -1    52    53    54    55    56    57    58    59    60 
+#060-071     -1     0     0     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Delete a file
+Error!  The file name, Boysenberry.jam, was not found.
+Transaction:  Add a new file
+Successfuly added a new file, Cashew.nut, of size 2484
+Transaction:  Modify a file
+Successfully modified a file, Blueberry.pie
+Transaction:  Modify a file
+Successfully modified a file, Cantelope
+Transaction:  Modify a file
+Successfully modified a file, Cashew.nut
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Kumquat.what           File Size:  2100
+Cluster(s) in use:      22    23    24    25    26
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Blueberry.pie          File Size:  5420
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61
+File name: Cantelope              File Size:  3939
+Cluster(s) in use:      27    28    29    30    31    32    33    34
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+Files:  13  Total Size:  27042 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1     0     0    10    11    12 
+#012-023     13    14    15    -1     0     0     0    -1    21    41    23    24 
+#024-035     25    26    -1    28    29    30    31    32    33    34    -1    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    -1    -1     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095      0     0     0     0     0     0     0     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Add a new file
+Successfuly added a new file, Coconut.milk, of size 1238
+Transaction:  Add a new file
+Successfuly added a new file, Date, of size 8878
+Transaction:  Copy a file
+Error!  The old file name, Potato.baked, was not found.
+Transaction:  Modify a file
+Successfully modified a file, Blueberry.pie
+Transaction:  Add a new file
+Successfuly added a new file, Fig, of size 6482
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Kumquat.what           File Size:  2100
+Cluster(s) in use:      22    23    24    25    26
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cantelope              File Size:  3939
+Cluster(s) in use:      27    28    29    30    31    32    33    34
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Coconut.milk           File Size:  1238
+Cluster(s) in use:       7     8    16
+File name: Date                   File Size:  8878
+Cluster(s) in use:      17    18    63    64    65    66    67    68    69    70    71    72
+                        73    74    75    76    77    78
+File name: Blueberry.pie          File Size:  4820
+Cluster(s) in use:      79    80    81    82    83    84    85    86    87    88
+File name: Fig                    File Size:  6482
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90
+Files:  16  Total Size:  43040 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1     8    16    10    11    12 
+#012-023     13    14    15    -1    -1    18    63    -1    21    41    23    24 
+#024-035     25    26    -1    28    29    30    31    32    33    34    -1    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    65    66    67    68    69    70    71    72 
+#072-083     73    74    75    76    77    78    -1    80    81    82    83    84 
+#084-095     85    86    87    88    -1    90    -1     0     0     0     0     0 
+#096-107      0     0     0     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0     0     0     0     0     0     0     0     0     0 
+#120-131      0     0     0     0     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Copy a file
+Successfully copied an existing file, Cantelope, to a new file, Muskmelon
+Transaction:  Add a new file
+Successfuly added a new file, Filbert.nut, of size 3984
+Transaction:  Modify a file
+Successfully modified a file, Fig
+Transaction:  Modify a file
+Successfully modified a file, Date
+Transaction:  Delete a file
+Successfully deleted a file, Kumquat.what
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cantelope              File Size:  3939
+Cluster(s) in use:      27    28    29    30    31    32    33    34
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Coconut.milk           File Size:  1238
+Cluster(s) in use:       7     8    16
+File name: Blueberry.pie          File Size:  4820
+Cluster(s) in use:      79    80    81    82    83    84    85    86    87    88
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Filbert.nut            File Size:  3984
+Cluster(s) in use:      99   100   101   102   103   104   105   106
+File name: Fig                    File Size:  6105
+Cluster(s) in use:     107   108   109   110   111   112   113   114   115   116   117   118
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+Files:  17  Total Size:  48801 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1     8    16    10    11    12 
+#012-023     13    14    15    -1    -1     0     0    -1    21    41     0     0 
+#024-035      0     0     0    28    29    30    31    32    33    34    -1    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1     0     0     0     0     0     0     0     0     0 
+#072-083      0     0     0     0     0     0     0    80    81    82    83    84 
+#084-095     85    86    87    88    -1    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102   103   104   105   106    -1   108 
+#108-119    109   110   111   112   113   114   115   116   117   118    -1   120 
+#120-131    121   122   123    -1     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Modify a file
+Successfully modified a file, Blueberry.pie
+Transaction:  Modify a file
+Successfully modified a file, Filbert.nut
+Transaction:  Modify a file
+Successfully modified a file, Fig
+Transaction:  Add a new file
+Successfuly added a new file, Kumquat.what, of size 1
+Transaction:  Modify a file
+Successfully modified a file, Cantelope
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Coconut.milk           File Size:  1238
+Cluster(s) in use:       7     8    16
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Filbert.nut            File Size:  2070
+Cluster(s) in use:      65    66    67    68    69
+File name: Fig                    File Size:  6670
+Cluster(s) in use:      70    71    72    73    74    75    76    77    78    79    80    81
+                        82    83
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Cantelope              File Size:  7959
+Cluster(s) in use:      85    86    87    88    99   100   101   102   103   104   105   106
+                       107   108   109   110
+Files:  18  Total Size:  50873 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1     8    16    10    11    12 
+#012-023     13    14    15    -1    -1    18    22    -1    21    41    23    24 
+#024-035     25    26    63     0     0     0     0     0     0     0     0    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69    -1    71    72 
+#072-083     73    74    75    76    77    78    79    80    81    82    83    -1 
+#084-095     -1    86    87    88    99    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102   103   104   105   106   107   108 
+#108-119    109   110    -1     0     0     0     0     0     0     0     0   120 
+#120-131    121   122   123    -1     0     0     0     0     0     0     0     0 
+#132-143      0     0     0     0     0     0     0     0     0     0     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Modify a file
+Successfully modified a file, Filbert.nut
+Transaction:  Add a new file
+Successfuly added a new file, Grape.jelly, of size 5705
+Transaction:  Copy a file
+Successfully copied an existing file, Filbert.nut, to a new file, Hazelnut.nut
+Transaction:  Add a new file
+Successfuly added a new file, Peanut.butter, of size 6587
+Transaction:  Delete a file
+Successfully deleted a file, Fig
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Coconut.milk           File Size:  1238
+Cluster(s) in use:       7     8    16
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Cantelope              File Size:  7959
+Cluster(s) in use:      85    86    87    88    99   100   101   102   103   104   105   106
+                       107   108   109   110
+File name: Filbert.nut            File Size:  3411
+Cluster(s) in use:      27    28    29    30    31    32    33
+File name: Grape.jelly            File Size:  5705
+Cluster(s) in use:      34    65    66    67    68    69   111   112   113   114   115   116
+File name: Hazelnut.nut           File Size:  3411
+Cluster(s) in use:     117   118   124   125   126   127   128
+File name: Peanut.butter          File Size:  6587
+Cluster(s) in use:     129   130   131   132   133   134   135   136   137   138   139   140
+                       141
+Files:  20  Total Size:  61247 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1     8    16    10    11    12 
+#012-023     13    14    15    -1    -1    18    22    -1    21    41    23    24 
+#024-035     25    26    63    28    29    30    31    32    33    -1    65    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69   111     0     0 
+#072-083      0     0     0     0     0     0     0     0     0     0     0     0 
+#084-095     -1    86    87    88    99    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102   103   104   105   106   107   108 
+#108-119    109   110    -1   112   113   114   115   116    -1   118   124   120 
+#120-131    121   122   123    -1   125   126   127   128    -1   130   131   132 
+#132-143    133   134   135   136   137   138   139   140   141    -1     0     0 
+#144-155      0     0     0     0     0     0     0     0     0     0     0     0 
+#156-167      0     0     0     0     0     0     0     0     0     0     0     0 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Add a new file
+Successfuly added a new file, Pear, of size 9961
+Transaction:  Modify a file
+Successfully modified a file, Cantelope
+Transaction:  Delete a file
+Successfully deleted a file, Coconut.milk
+Transaction:  Add a new file
+Successfuly added a new file, Pecan.nut, of size 491
+Transaction:  Delete a file
+Error!  The file name, Onion.Soup, was not found.
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Filbert.nut            File Size:  3411
+Cluster(s) in use:      27    28    29    30    31    32    33
+File name: Grape.jelly            File Size:  5705
+Cluster(s) in use:      34    65    66    67    68    69   111   112   113   114   115   116
+File name: Hazelnut.nut           File Size:  3411
+Cluster(s) in use:     117   118   124   125   126   127   128
+File name: Peanut.butter          File Size:  6587
+Cluster(s) in use:     129   130   131   132   133   134   135   136   137   138   139   140
+                       141
+File name: Pear                   File Size:  9961
+Cluster(s) in use:      70    71    72    73    74    75    76    77    78    79    80    81
+                        82    83   142   143   144   145   146   147
+File name: Cantelope              File Size:  9969
+Cluster(s) in use:     148   149   150   151   152   153   154   155   156   157   158   159
+                       160   161   162   163   164   165   166   167
+File name: Pecan.nut              File Size:   491
+Cluster(s) in use:       7
+Files:  21  Total Size:  72471 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1    -1     0    10    11    12 
+#012-023     13    14    15    -1     0    18    22    -1    21    41    23    24 
+#024-035     25    26    63    28    29    30    31    32    33    -1    65    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69   111    71    72 
+#072-083     73    74    75    76    77    78    79    80    81    82    83   142 
+#084-095     -1     0     0     0     0    90   119    92    93    94    95    96 
+#096-107     97    98    -1     0     0     0     0     0     0     0     0     0 
+#108-119      0     0     0   112   113   114   115   116    -1   118   124   120 
+#120-131    121   122   123    -1   125   126   127   128    -1   130   131   132 
+#132-143    133   134   135   136   137   138   139   140   141    -1   143   144 
+#144-155    145   146   147    -1   149   150   151   152   153   154   155   156 
+#156-167    157   158   159   160   161   162   163   164   165   166   167    -1 
+#168-179      0     0     0     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Add a new file
+Successfuly added a new file, Plum.pudding, of size 2995
+Transaction:  Rename a file
+Successfully changed the file name Plum.pudding to Plum.cake
+Transaction:  Add a new file
+Successfuly added a new file, Pumpkin.pie, of size 1702
+Transaction:  Modify a file
+Successfully modified a file, Pecan.nut
+Transaction:  Add a new file
+Successfuly added a new file, Raspberry.jam, of size 4827
+
+Directory Listing
+File name: .                      File Size:  1024
+Cluster(s) in use:       0    19
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Filbert.nut            File Size:  3411
+Cluster(s) in use:      27    28    29    30    31    32    33
+File name: Grape.jelly            File Size:  5705
+Cluster(s) in use:      34    65    66    67    68    69   111   112   113   114   115   116
+File name: Hazelnut.nut           File Size:  3411
+Cluster(s) in use:     117   118   124   125   126   127   128
+File name: Peanut.butter          File Size:  6587
+Cluster(s) in use:     129   130   131   132   133   134   135   136   137   138   139   140
+                       141
+File name: Pear                   File Size:  9961
+Cluster(s) in use:      70    71    72    73    74    75    76    77    78    79    80    81
+                        82    83   142   143   144   145   146   147
+File name: Cantelope              File Size:  9969
+Cluster(s) in use:     148   149   150   151   152   153   154   155   156   157   158   159
+                       160   161   162   163   164   165   166   167
+File name: Plum.cake              File Size:  2995
+Cluster(s) in use:       8    16    85    86    87    88
+File name: Pumpkin.pie            File Size:  1702
+Cluster(s) in use:      99   100   101   102
+File name: Pecan.nut              File Size:   892
+Cluster(s) in use:     103   104
+File name: Raspberry.jam          File Size:  4827
+Cluster(s) in use:       7   105   106   107   108   109   110   168   169   170
+Files:  24  Total Size:  82396 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1   105    16    10    11    12 
+#012-023     13    14    15    -1    85    18    22    -1    21    41    23    24 
+#024-035     25    26    63    28    29    30    31    32    33    -1    65    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69   111    71    72 
+#072-083     73    74    75    76    77    78    79    80    81    82    83   142 
+#084-095     -1    86    87    88    -1    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102    -1   104    -1   106   107   108 
+#108-119    109   110   168   112   113   114   115   116    -1   118   124   120 
+#120-131    121   122   123    -1   125   126   127   128    -1   130   131   132 
+#132-143    133   134   135   136   137   138   139   140   141    -1   143   144 
+#144-155    145   146   147    -1   149   150   151   152   153   154   155   156 
+#156-167    157   158   159   160   161   162   163   164   165   166   167    -1 
+#168-179    169   170    -1     0     0     0     0     0     0     0     0     0 
+#180-191      0     0     0     0     0     0     0     0     0     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Copy a file
+Error!  The new file name, Muskmelon, already exists.
+Transaction:  Add a new file
+Successfuly added a new file, Lemon.tart, of size 0
+Transaction:  Modify a file
+Successfully modified a file, Peanut.butter
+Transaction:  Add a new file
+Successfuly added a new file, Strawberry.jam, of size 5436
+Transaction:  Modify a file
+Error!  The file name, Broccoli.veg, was not found.
+
+Directory Listing
+File name: .                      File Size:  1536
+Cluster(s) in use:       0    19   171
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Filbert.nut            File Size:  3411
+Cluster(s) in use:      27    28    29    30    31    32    33
+File name: Grape.jelly            File Size:  5705
+Cluster(s) in use:      34    65    66    67    68    69   111   112   113   114   115   116
+File name: Hazelnut.nut           File Size:  3411
+Cluster(s) in use:     117   118   124   125   126   127   128
+File name: Pear                   File Size:  9961
+Cluster(s) in use:      70    71    72    73    74    75    76    77    78    79    80    81
+                        82    83   142   143   144   145   146   147
+File name: Cantelope              File Size:  9969
+Cluster(s) in use:     148   149   150   151   152   153   154   155   156   157   158   159
+                       160   161   162   163   164   165   166   167
+File name: Plum.cake              File Size:  2995
+Cluster(s) in use:       8    16    85    86    87    88
+File name: Pumpkin.pie            File Size:  1702
+Cluster(s) in use:      99   100   101   102
+File name: Pecan.nut              File Size:   892
+Cluster(s) in use:     103   104
+File name: Raspberry.jam          File Size:  4827
+Cluster(s) in use:       7   105   106   107   108   109   110   168   169   170
+File name: Lemon.tart             File Size:     0
+Cluster(s) in use:  (none)
+File name: Peanut.butter          File Size:  8233
+Cluster(s) in use:     172   173   174   175   176   177   178   179   180   181   182   183
+                       184   185   186   187   188
+File name: Strawberry.jam         File Size:  5436
+Cluster(s) in use:     129   130   131   132   133   134   135   136   137   138   139
+Files:  26  Total Size:  89990 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1   105    16    10    11    12 
+#012-023     13    14    15    -1    85    18    22   171    21    41    23    24 
+#024-035     25    26    63    28    29    30    31    32    33    -1    65    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69   111    71    72 
+#072-083     73    74    75    76    77    78    79    80    81    82    83   142 
+#084-095     -1    86    87    88    -1    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102    -1   104    -1   106   107   108 
+#108-119    109   110   168   112   113   114   115   116    -1   118   124   120 
+#120-131    121   122   123    -1   125   126   127   128    -1   130   131   132 
+#132-143    133   134   135   136   137   138   139    -1     0     0   143   144 
+#144-155    145   146   147    -1   149   150   151   152   153   154   155   156 
+#156-167    157   158   159   160   161   162   163   164   165   166   167    -1 
+#168-179    169   170    -1    -1   173   174   175   176   177   178   179   180 
+#180-191    181   182   183   184   185   186   187   188    -1     0     0     0 
+#192-203      0     0     0     0     0     0     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Add a new file
+Successfuly added a new file, Jello.mold, of size 0
+Transaction:  Add a new file
+Successfuly added a new file, Tangerine, of size 1671
+Transaction:  Modify a file
+Successfully modified a file, Tangerine
+Transaction:  Rename a file
+Successfully changed the file name Pear to Pear.sauce
+Transaction:  Add a new file
+Successfuly added a new file, Walnut.nut, of size 4364
+
+Directory Listing
+File name: .                      File Size:  1536
+Cluster(s) in use:       0    19   171
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Filbert.nut            File Size:  3411
+Cluster(s) in use:      27    28    29    30    31    32    33
+File name: Grape.jelly            File Size:  5705
+Cluster(s) in use:      34    65    66    67    68    69   111   112   113   114   115   116
+File name: Hazelnut.nut           File Size:  3411
+Cluster(s) in use:     117   118   124   125   126   127   128
+File name: Pear.sauce             File Size:  9961
+Cluster(s) in use:      70    71    72    73    74    75    76    77    78    79    80    81
+                        82    83   142   143   144   145   146   147
+File name: Cantelope              File Size:  9969
+Cluster(s) in use:     148   149   150   151   152   153   154   155   156   157   158   159
+                       160   161   162   163   164   165   166   167
+File name: Plum.cake              File Size:  2995
+Cluster(s) in use:       8    16    85    86    87    88
+File name: Pumpkin.pie            File Size:  1702
+Cluster(s) in use:      99   100   101   102
+File name: Pecan.nut              File Size:   892
+Cluster(s) in use:     103   104
+File name: Raspberry.jam          File Size:  4827
+Cluster(s) in use:       7   105   106   107   108   109   110   168   169   170
+File name: Lemon.tart             File Size:     0
+Cluster(s) in use:  (none)
+File name: Peanut.butter          File Size:  8233
+Cluster(s) in use:     172   173   174   175   176   177   178   179   180   181   182   183
+                       184   185   186   187   188
+File name: Strawberry.jam         File Size:  5436
+Cluster(s) in use:     129   130   131   132   133   134   135   136   137   138   139
+File name: Jello.mold             File Size:     0
+Cluster(s) in use:  (none)
+File name: Tangerine              File Size:  1011
+Cluster(s) in use:     191   192
+File name: Walnut.nut             File Size:  4364
+Cluster(s) in use:     140   141   189   190   193   194   195   196   197
+Files:  29  Total Size:  95365 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1   105    16    10    11    12 
+#012-023     13    14    15    -1    85    18    22   171    21    41    23    24 
+#024-035     25    26    63    28    29    30    31    32    33    -1    65    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69   111    71    72 
+#072-083     73    74    75    76    77    78    79    80    81    82    83   142 
+#084-095     -1    86    87    88    -1    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102    -1   104    -1   106   107   108 
+#108-119    109   110   168   112   113   114   115   116    -1   118   124   120 
+#120-131    121   122   123    -1   125   126   127   128    -1   130   131   132 
+#132-143    133   134   135   136   137   138   139    -1   141   189   143   144 
+#144-155    145   146   147    -1   149   150   151   152   153   154   155   156 
+#156-167    157   158   159   160   161   162   163   164   165   166   167    -1 
+#168-179    169   170    -1    -1   173   174   175   176   177   178   179   180 
+#180-191    181   182   183   184   185   186   187   188    -1   190   193   192 
+#192-203     -1   194   195   196   197    -1     0     0     0     0     0     0 
+#204-215      0     0     0     0     0     0     0     0     0     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+
+Transaction:  Modify a file
+Successfully modified a file, Tangerine
+Transaction:  Add a new file
+Successfuly added a new file, Watermelon.seed, of size 3902
+
+End of the FAT simulation
+
+Directory Listing
+File name: .                      File Size:  1536
+Cluster(s) in use:       0    19   171
+File name: ..                     File Size:     0
+Cluster(s) in use:  (none)
+File name: Pie.apple              File Size:  3227
+Cluster(s) in use:       9    10    11    12    13    14    15
+File name: Crisp.bacon            File Size:   752
+Cluster(s) in use:       2     3
+File name: Bubble.gum             File Size:     0
+Cluster(s) in use:  (none)
+File name: Candy.bar              File Size:   513
+Cluster(s) in use:       4     5
+File name: Small.bite             File Size:     0
+Cluster(s) in use:  (none)
+File name: Nut.almond             File Size:   728
+Cluster(s) in use:       1     6
+File name: Banana.split           File Size:  4871
+Cluster(s) in use:      51    52    53    54    55    56    57    58    59    60
+File name: Cashew.nut             File Size:  4468
+Cluster(s) in use:      35    36    37    38    39    40    49    50    62
+File name: Muskmelon              File Size:  3939
+Cluster(s) in use:      91    92    93    94    95    96    97    98
+File name: Date                   File Size:  9193
+Cluster(s) in use:      20    21    41    42    43    44    45    46    47    48    61    89
+                        90   119   120   121   122   123
+File name: Blueberry.pie          File Size:  4220
+Cluster(s) in use:      17    18    22    23    24    25    26    63    64
+File name: Kumquat.what           File Size:     1
+Cluster(s) in use:      84
+File name: Filbert.nut            File Size:  3411
+Cluster(s) in use:      27    28    29    30    31    32    33
+File name: Grape.jelly            File Size:  5705
+Cluster(s) in use:      34    65    66    67    68    69   111   112   113   114   115   116
+File name: Hazelnut.nut           File Size:  3411
+Cluster(s) in use:     117   118   124   125   126   127   128
+File name: Pear.sauce             File Size:  9961
+Cluster(s) in use:      70    71    72    73    74    75    76    77    78    79    80    81
+                        82    83   142   143   144   145   146   147
+File name: Cantelope              File Size:  9969
+Cluster(s) in use:     148   149   150   151   152   153   154   155   156   157   158   159
+                       160   161   162   163   164   165   166   167
+File name: Plum.cake              File Size:  2995
+Cluster(s) in use:       8    16    85    86    87    88
+File name: Pumpkin.pie            File Size:  1702
+Cluster(s) in use:      99   100   101   102
+File name: Pecan.nut              File Size:   892
+Cluster(s) in use:     103   104
+File name: Raspberry.jam          File Size:  4827
+Cluster(s) in use:       7   105   106   107   108   109   110   168   169   170
+File name: Lemon.tart             File Size:     0
+Cluster(s) in use:  (none)
+File name: Peanut.butter          File Size:  8233
+Cluster(s) in use:     172   173   174   175   176   177   178   179   180   181   182   183
+                       184   185   186   187   188
+File name: Strawberry.jam         File Size:  5436
+Cluster(s) in use:     129   130   131   132   133   134   135   136   137   138   139
+File name: Jello.mold             File Size:     0
+Cluster(s) in use:  (none)
+File name: Walnut.nut             File Size:  4364
+Cluster(s) in use:     140   141   189   190   193   194   195   196   197
+File name: Tangerine              File Size:  4100
+Cluster(s) in use:     198   199   200   201   202   203   204   205   206
+File name: Watermelon.seed        File Size:  3902
+Cluster(s) in use:     191   192   207   208   209   210   211   212
+Files:  30  Total Size:  102356 bytes
+
+Contents of the File Allocation Table
+#000-011     19     6     3    -1     5    -1    -1   105    16    10    11    12 
+#012-023     13    14    15    -1    85    18    22   171    21    41    23    24 
+#024-035     25    26    63    28    29    30    31    32    33    -1    65    36 
+#036-047     37    38    39    40    49    42    43    44    45    46    47    48 
+#048-059     61    50    62    52    53    54    55    56    57    58    59    60 
+#060-071     -1    89    -1    64    -1    66    67    68    69   111    71    72 
+#072-083     73    74    75    76    77    78    79    80    81    82    83   142 
+#084-095     -1    86    87    88    -1    90   119    92    93    94    95    96 
+#096-107     97    98    -1   100   101   102    -1   104    -1   106   107   108 
+#108-119    109   110   168   112   113   114   115   116    -1   118   124   120 
+#120-131    121   122   123    -1   125   126   127   128    -1   130   131   132 
+#132-143    133   134   135   136   137   138   139    -1   141   189   143   144 
+#144-155    145   146   147    -1   149   150   151   152   153   154   155   156 
+#156-167    157   158   159   160   161   162   163   164   165   166   167    -1 
+#168-179    169   170    -1    -1   173   174   175   176   177   178   179   180 
+#180-191    181   182   183   184   185   186   187   188    -1   190   193   192 
+#192-203    207   194   195   196   197    -1   199   200   201   202   203   204 
+#204-215    205   206    -1   208   209   210   211   212    -1     0     0     0 
+#216-227      0     0     0     0     0     0     0     0     0     0     0     0 
+#228-239      0     0     0     0     0     0     0     0     0     0     0     0 
+

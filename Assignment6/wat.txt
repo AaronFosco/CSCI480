@@ -1,0 +1,198 @@
+List of available blocks
+Start Address =   3145728 Size =  1048576
+Start Address =   4194304 Size =  2097152
+Start Address =   6291456 Size =  2097152
+Start Address =   8388608 Size =  4194304
+Start Address =  12582912 Size =  4194304
+Total size of the list = 13631488
+
+List of blocks in use
+(none)
+Total size of the list = 0
+
+Transaction: request to load process 1001, block ID MAIN using 840000Bytes
+Found a block of size 1048576
+Success in allocating a block
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   4194304 Size =  2097152
+Start Address =   6291456 Size =  2097152
+Start Address =   8388608 Size =  4194304
+Start Address =  12582912 Size =  4194304
+Total size of the list = 12791488
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Total size of the list = 840000
+
+Transaction: request to terminate process 1001
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   4194304 Size =  2097152
+Start Address =   6291456 Size =  2097152
+Start Address =   8388608 Size =  4194304
+Start Address =  12582912 Size =  4194304
+Total size of the list = 12791488
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Total size of the list = 840000
+
+Transaction: request to load process 1002, block ID XYZ1 using 1572864Bytes
+Found a block of size 2097152
+Success in allocating a block
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   6291456 Size =  2097152
+Start Address =   8388608 Size =  4194304
+Start Address =  12582912 Size =  4194304
+Total size of the list = 11218624
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Total size of the list = 2412864
+
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =   8388608 Size =  4194304
+Start Address =  12582912 Size =  4194304
+Total size of the list = 9383616
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Total size of the list = 4247872
+
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  10223616 Size =  2359296
+Start Address =  12582912 Size =  4194304
+Total size of the list = 7548608
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Total size of the list = 6082880
+
+Transaction: request to terminate process 1002
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  10223616 Size =  2359296
+Start Address =  12582912 Size =  4194304
+Total size of the list = 7548608
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Total size of the list = 6082880
+
+Transaction: request to load process 1003, block ID ABC1 using 680000Bytes
+Found a block of size 2359296
+Success in allocating a block
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  10903616 Size =  1679296
+Start Address =  12582912 Size =  4194304
+Total size of the list = 6868608
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Start Address =  10223616 Size =   680000 Process ID = 1003 Block ID = ABC1
+Total size of the list = 6762880
+
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  11690048 Size =   892864
+Start Address =  12582912 Size =  4194304
+Total size of the list = 6082176
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Start Address =  10223616 Size =   680000 Process ID = 1003 Block ID = ABC1
+Start Address =  10903616 Size =   786432 Process ID = 1003 Block ID = PQ0A
+Total size of the list = 7549312
+
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  12476480 Size =   106432
+Start Address =  12582912 Size =  4194304
+Total size of the list = 5295744
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Start Address =  10223616 Size =   680000 Process ID = 1003 Block ID = ABC1
+Start Address =  10903616 Size =   786432 Process ID = 1003 Block ID = PQ0A
+Start Address =  11690048 Size =   786432 Process ID = 1003 Block ID = PQ0B
+Total size of the list = 8335744
+
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  12476480 Size =   106432
+Start Address =  13369344 Size =  3407872
+Total size of the list = 4509312
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Start Address =  10223616 Size =   680000 Process ID = 1003 Block ID = ABC1
+Start Address =  10903616 Size =   786432 Process ID = 1003 Block ID = PQ0A
+Start Address =  11690048 Size =   786432 Process ID = 1003 Block ID = PQ0B
+Start Address =  12582912 Size =   786432 Process ID = 1003 Block ID = PQ0C
+Total size of the list = 9122176
+
+List of available blocks
+Start Address =   3985728 Size =   208576
+Start Address =   5767168 Size =   524288
+Start Address =   8126464 Size =   262144
+Start Address =  12476480 Size =   106432
+Start Address =  14155776 Size =  2621440
+Total size of the list = 3722880
+
+List of blocks in use
+Start Address =   3145728 Size =   840000 Process ID = 1001 Block ID = MAIN
+Start Address =   4194304 Size =  1572864 Process ID = 1002 Block ID = XYZ1
+Start Address =   6291456 Size =  1835008 Process ID = 1002 Block ID = BIG1
+Start Address =   8388608 Size =  1835008 Process ID = 1002 Block ID = BIG2
+Start Address =  10223616 Size =   680000 Process ID = 1003 Block ID = ABC1
+Start Address =  10903616 Size =   786432 Process ID = 1003 Block ID = PQ0A
+Start Address =  11690048 Size =   786432 Process ID = 1003 Block ID = PQ0B
+Start Address =  12582912 Size =   786432 Process ID = 1003 Block ID = PQ0C
+Start Address =  13369344 Size =   786432 Process ID = 1003 Block ID = PQ0D
+Total size of the list = 9908608
+
+Transaction: request to deallocate block ID PQ0C for process 1003
+Mergign two blocks at 3985728 and 5767168
+Mergign two blocks at 8126464 and 12476480
+Mergign two blocks at 12582912 and 14155776
